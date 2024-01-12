@@ -1,0 +1,29 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 0  70px;
+    height: 80px;
+    font-size: 1.2rem;
+}
+.navbar-container ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.navbar-container input{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #00000057;
+    padding: 10px;
+}
+
+.navbar-container input:focus{
+    border: 2px solid rgb(0, 0, 255);
+    outline: 2px solid rgb(83, 83, 180);
+}
